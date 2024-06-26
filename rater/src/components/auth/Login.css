@@ -1,0 +1,110 @@
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+fieldset {
+    min-width: 0;
+    border: 0;
+}
+
+.loginLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.link--register {
+    padding: 0 1.5rem;
+}
+
+/* .form--login {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 0 0 2rem;
+    z-index: 1;
+    min-height: 25rem;
+    min-width: 35rem;
+} */
+
+.form--login {
+    /* margin: 0 auto; */ /* Remove this line */
+    text-align: left;
+    padding: 0 2rem; /* Adjust padding as needed */
+    z-index: 1;
+    min-height: 25rem;
+    max-width: 35rem; /* Adjust width as needed */
+}
+
+.form--login > fieldset > input {
+    width: 25em;
+}
+
+.label--login {
+    width: 8rem;
+    display: inline-block;
+}
+
+.form-control {
+    display: block;
+    width: 94%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* .container--login {
+    text-align: center;
+} */
+
+.container--login {
+    /* text-align: center; */ /* Remove this line */
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+}
+
+.button--close {
+    position: relative;
+    bottom: -2rem;
+}
+
+.dialog {
+    min-width: 15rem;
+    min-height: 5rem;
+}
+
+.navdisplay {
+    display: flex;
+    justify-content: center;
+    width: 125%;
+  }
+
+  .display {
+    display: flex; 
+    justify-content: center;
+    width: 125%;
+    margin-top: -10% ;
+  
+  }
+  
+  .centered-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
